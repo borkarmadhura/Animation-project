@@ -1,0 +1,38 @@
+div{
+	width:200px;
+	height:200px;
+	margin:200px;
+	position:relative;
+	background-color:red;
+	color:yellow;
+	text-align:center;
+	font-size:20px;
+	transition-delay:1s;
+	transition-duration:1s;
+	transform:rotate(45deg);
+	
+	
+}
+div:hover{
+	width:250px;
+	height:200px;
+	border-radius:50%;
+	background-color:olive;
+	transform:rotate(180deg);
+	transform:scale(1.1);
+	transform:translate(200px);
+	transform:scaleX(1.5);
+	transform:rotateX(45deg);
+}
+	
+.id{
+	transform:scaleY(2);
+	background-color:#1AB289 ;
+	margin:200px;
+	color:purple;
+	height:100px;
+}
+  
+ 
+ 
+  
